@@ -1,6 +1,11 @@
-
-
- #hotel-logo { 
-
-    width: 150px;
-}
+body{
+    display: flex;
+  }
+  #hotel-logo {
+      width: 150px;
+    }
+    .iconContainer{
+      display: flex;
+     flex-direction: row;
+     margin: 0 2px;
+    }
