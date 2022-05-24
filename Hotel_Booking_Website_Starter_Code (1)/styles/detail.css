@@ -9,3 +9,6 @@ body{
      flex-direction: row;
      margin: 0 2px;
     }
+    .myform {
+      display: unset;
+    }

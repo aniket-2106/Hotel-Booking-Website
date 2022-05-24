@@ -4,7 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>login</title>
-        
+        <style>
+            body{
+                display: flex;
+                margin: 0.5rem auto;
+                margin-left: 10px;
+            }
+        </style>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
@@ -12,8 +18,17 @@
     <body>
     
         <!-------HEADER DIV------HEADER DIV----------HEADER DIV---------------------->
-        <div>
-            Login
+        <div style="display: inline;">
+           <form action="index.html" method="post">
+               <label for="Username">Uername: </label>
+               <input autocomplete="off" type="text" placeholder="Enter username" required >
+            </br>
+               <label for="Password">Password: </label>
+               <input autocomplete="off" type="password" placeholder="Enter password" required>
+            </br>
+               <input type="submit">
+               
+           </form>
         </div>
      
         
