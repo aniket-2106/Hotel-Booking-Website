@@ -1,29 +1,12 @@
-html,
-body {
-  width: 100%;
-  height: auto;
-  margin-left: 2px;
-
+.mform {
+  margin: 0% 4% 1% 4%;
 }
-
-#hotel-logo {
-  height: 60px;
-  width: 60px;
+.content > img  {
+  margin: 2% 4% 0 4%;
 }
-
-.container {
-  width: 100%;
-  height: auto;
-  margin-right: auto;
-  margin-left: 1px;
+.description > div {
+  margin: 1% 4% 2% 4%;
 }
-
-.iconContainer {
-  display: flex;
-  flex-direction: row;
-  margin: 0 2px;
-}
-
 .myform {
   display: unset;
 }

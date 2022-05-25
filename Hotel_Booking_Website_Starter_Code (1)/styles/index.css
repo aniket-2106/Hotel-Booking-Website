@@ -1,40 +1,32 @@
- html,
- body {
+#search-bar {
 
-   margin: 0px;
-   height: 100%;
- }
+  background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+  height: 380px;
+  background-position: center;
+  background-size: cover;
 
- #hotel-logo {
-   height: 60px;
-   width: 60px;
+}
 
- }
+.imag {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: center;
+  flex-wrap: nowrap;
+ 
+}
 
- .imag {
-   display: flex;
-   height: 150px;
-   width: 700px;
- }
+.img-container {
+ background-size: cover;
+ padding-top: 4%;
+ padding-bottom: 4%;
+ padding-left: 4%;
+ padding-right: 4%;
 
- .img-container {
-   display: inline;
-   float: left;
-   margin: 0 1px;
-
- }
-
-
- .container {
-   width: 100%;
-   height: auto;
-   margin-right: auto;
-   margin-left: 1px;
-
- }
-
- .iconContainer {
-   display: flex;
-   flex-direction: row;
-   margin: 0 2px;
- }
+}
+.img-container > img {
+  border: 1px; 
+  border-radius: 25px; 
+  overflow: hidden;
+}

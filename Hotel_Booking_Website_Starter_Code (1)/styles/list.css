@@ -1,26 +1,9 @@
-html,
-body {
-  width: 100%;
-  height: auto;
-  margin-left: 2px;
-
+#list-view > div {
+    height: auto;
+    width: 40%;
+    margin: 2%;
+    background-color: rgb(132,136,139);
 }
-
-#hotel-logo {
-  height: 60px;
-  width: 60px;
-}
-
-.container {
-  width: 100%;
-  height: auto;
-  margin-right: auto;
-  margin-left: 1px;
-
-}
-
-.iconContainer {
-  display: flex;
-  flex-direction: row;
-  margin: 0 2px;
+#map-view{
+    margin: 2%;
 }
