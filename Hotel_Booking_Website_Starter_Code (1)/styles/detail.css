@@ -1,14 +1,29 @@
-body{
-    display: flex;
-  }
-  #hotel-logo {
-      width: 150px;
-    }
-    .iconContainer{
-      display: flex;
-     flex-direction: row;
-     margin: 0 2px;
-    }
-    .myform {
-      display: unset;
-    }
+html,
+body {
+  width: 100%;
+  height: auto;
+  margin-left: 2px;
+
+}
+
+#hotel-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: 1px;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 0 2px;
+}
+
+.myform {
+  display: unset;
+}

@@ -10,55 +10,58 @@
         <link rel="stylesheet" href="styles/list.css">
     </head>
     <body>
-    <div>
-        <!-------HEADER DIV------HEADER DIV----------HEADER DIV---------------------->
-           
-        <div>
+    <div class="container">
+<!-------HEADER DIV-----------------------HEADER DIV----------HEADER DIV----------------------------------------->
+    <header>       
+        
             <a href="index.html">
                 <img id="hotel-logo" alt="logo" src="assests/images/logo.png"> 
             </a> 
             <a href="login.html" target="_blank">login</a>
-        </div>
+    </header>   
 <!-----------------COntent div------------------Content div--------------------COntent DIV-----------------------Content DIV----------------------------->
-        <div>
-
+    <div class="content">
             <div>
                 <ul>
-                    <li><a href="list.html">List view</a></li>
-                    <li><a href="list.html">Map View</a></li>
+            <!-------When i click on the list view it will rediect me to the fist div---------->
+                    <li><a href="list.html #list-view">List view</a></li>
+
+            <!-------When i click on the map view it will rediect me to div where id is map view--------->
+                    <li><a href="list.html #map-view">Map View</a></li>
                 </ul>
             </div>
-            <div class="container">
-                <div > 
+            <div  id="list-view">
+                <div> 
                     <a href="detail.html">        
-                    <img alt="Hotel-radison" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+                    <img alt="Hotel-radison" height="200" width="250px" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
                     <b><p><h2>Radison BLU</h2></p></b>
                     </a>
                     <p> 5 Star</p> 
                     <p>New Delhi</p>
                 </div>
                 <div > 
-                    <img alt="Hotel-Lalit" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg">
+                    <img alt="Hotel-Lalit" height="200" width="250px" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg">
                     <b><p><h2> Lalit New Delhi</h2></p></b>
                     <p> 4.0 Star</p>
                     <p>New Delhi</p> 
                 </div>
                 <div> 
-                    <img alt="Hotel-taj-paalce" src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg">
+                    <img alt="Hotel-taj-paalce" height="200" width="250px" src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg">
                     <b><p><h2>Taj Palace</h2></p></p></b>
                     <p> 4.3 Star</p> 
                     <p>New Delhi</p>
                 </div>
-                <div> 
+                <!---------When i click on the map view it will rediect me to div where id is map view------------>
+                <div id="map-view"> 
                     <img alt="Map-view" src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
                     <b><p><h2>MAP VIEW</h2></p></b>
                 </div>
                
             </div>
-        </div>
+    </div>
 
 <!-----------------------Footer----------------Footer-------------------------------Footer------------->
-<div>
+<footer>
     <a href="contact.html" target="_blank" >Contact-us</a>
   <div class="iconContainer">
 
@@ -73,8 +76,6 @@
     </div>
     
   </div>
-</div>
-<footer>
   <p>@2022 Aniket_Deshmukh
   </p>
 </footer>

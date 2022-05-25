@@ -1,91 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Detail</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/detail.css">
-    </head>
-    <body>
-    <div>
-        <!-------HEADER DIV------HEADER DIV----------HEADER DIV---------------------->
-        <div>
-            <div>
-              <a href="index.html">
-        <img id="hotel-logo" alt="logo" src="assests/images/logo.png"> 
-    </a>
-                <a href="login.html" target="_blank">login</a>
-            </div>
-        </div>
 
-        <!------------------------------content div------------------------Content div-----------contentdiv------------->
-        
-        <div>
-            <div class="container" >        
-                <img alt="Hotel-radison" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
-                <div>
-                  <form class="myform" method="post" action="payment.html">
-                      <label for="adults">Adults:</label>
-                      <input type="number" min="1" max="50" required>
-                    </br>
-                      <label for="Name">Name:</label>
-                      <input type="text" required>
-                    </br>
-                      <label for="fdate">From-Date</label>
-                      <input type="date" required>
-                    </br>
-                    <label for="tdate">To-Date</label>
-                      <input type="date" required>
-                  </br>
-                  <label for="total">Total:</label>
-                  <input type="number" readonly>
-                </br>
-                <input type="submit" value="Book Now">
-                  </form>
-                </div>
-                <b><p><h2>Radison Blu Hotel</h2></p></b>
-                <p>RATING</p>
-                <p>5 Star</p>
-                <div>
-                    AMINITIES
-                    <ul>
-                        <li>Room Service</li>
-                        <li>Restaurant</li>
-                        <li>Bussiness Center</li>
-                        <li>Fitness Crnter </li>
-                        <li>Pool</li>
-                      </ul>
-                </div>
-                <div> DESCRIPTION
-                    <p>Your Radisson Blu experience should be all about personalization, every step of the way. By paying close attention to the small details that make a big difference, we inspire unforgettable experiences with every stay. Step into stylish spaces designed for business and leisure in some of the world’s favorite destinations. Our culinary experts strive to deliver cutting edge, stylish, sophisticated gastronomy to every Radisson Blu dining experience.</p>
-                </div>
-            </div>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Detail</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/detail.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-------HEADER DIV------HEADER DIV----------HEADER DIV---------------------->
+    <header>
+      <a href="index.html">
+        <img id="hotel-logo" alt="logo" src="assests/images/logo.png">
+      </a>
+      <a href="login.html" target="_blank">login</a>
+    </header>
+    <!------------------------------content div------------------------Content div-----------contentdiv------------->
+    <div class="content">
+      <img alt="Hotel-radison" height="500" width="500"
+        src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+      <div>
+        <form class="myform" method="post" action="payment.html">
+          <label for="adults">Adults:</label>
+          <input type="number" min="1" max="50" required>
+          </br>
+          <label for="Name">Name:</label>
+          <input type="text" required>
+          </br>
+          <label for="fdate">From-Date</label>
+          <input type="date" required>
+          </br>
+          <label for="tdate">To-Date</label>
+          <input type="date" required>
+          </br>
+          <label for="total">Total:</label>
+          <input type="number" readonly>
+          </br>
+          <input type="submit" value="Book Now">
+        </form>
+      </div>
+      <b>
+        <p>
+        <h2>Radison Blu Hotel</h2>
+        </p>
+      </b>
+      <p>RATING</p>
+      <p>5 Star</p>
+      <div>
+        AMINITIES
+        <ul>
+          <li>Room Service</li>
+          <li>Restaurant</li>
+          <li>Bussiness Center</li>
+          <li>Fitness Crnter </li>
+          <li>Pool</li>
+        </ul>
+      </div>
+      <div> DESCRIPTION
+        <p>Your Radisson Blu experience should be all about personalization, every step of the way. By paying close
+          attention to the small details that make a big difference, we inspire unforgettable experiences with every
+          stay. Step into stylish spaces designed for business and leisure in some of the world’s favorite destinations.
+          Our culinary experts strive to deliver cutting edge, stylish, sophisticated gastronomy to every Radisson Blu
+          dining experience.</p>
+      </div>
+    </div>
+    <!------------------------------footer div------------------------Footer div-----------Footer div------------->
+    <footer>
+      <a href="contact.html" target="_blank">Contact-us</a>
+      <div class="iconContainer">
+        <div class="iconContainer">
+          <a href="https://login.facebook.com/" target="_blank"><img alt="logo-facebook " height="20px" width="22px"
+              src="assests/images/facebook.png"></a>
         </div>
-           <!------------------------------footer div------------------------Footer div-----------Footer div------------->
-           <div>
-            <a href="contact.html" target="_blank" >Contact-us</a>
-          <div class="iconContainer">
-        
-            <div class="iconContainer">
-              <a href="https://login.facebook.com/" target="_blank"><img  alt="logo-facebook " height="20px" width="22px" src="assests/images/facebook.png"></a> 
-            </div>
-            <div class="iconContainer">
-              <a href="https://www.instagram.com/accounts/login/" target="_blank"><img  alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png"></a> 
-            </div>
-            <div class="iconContainer">
-              <a href="https://login.twitter.com/" target="_blank"><img  alt="logo-facebook " height="20px" width="22px" src="assests/images/twitter.png"></a> 
-            </div>
-            
-          </div>
+        <div class="iconContainer">
+          <a href="https://www.instagram.com/accounts/login/" target="_blank"><img alt="logo-facebook" height="20px"
+              width="22px" src="assests/images/instagram.png"></a>
         </div>
-        <footer>
-          <p>@2022 Aniket_Deshmukh
-          </p>
-        </footer>        
-        <!--------end------------------>
-    </div>  
-        <script src="" async defer></script>
-    </body>
+        <div class="iconContainer">
+          <a href="https://login.twitter.com/" target="_blank"><img alt="logo-facebook " height="20px" width="22px"
+              src="assests/images/twitter.png"></a>
+        </div>
+      </div>
+      <p>@2022 Aniket_Deshmukh</p>
+    </footer>
+    <!--------end------------------>
+  </div>
+</body>
+
 </html>

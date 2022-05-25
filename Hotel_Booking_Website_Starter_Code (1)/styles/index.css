@@ -1,19 +1,40 @@
-body {
-  display: flex;
-  
-}
-#hotel-logo {
-  width: 150px;
-  
-}
-.img-container { 
-  float:left;
-  margin: 0 1px;
+ html,
+ body {
 
-}
+   margin: 0px;
+   height: 100%;
+ }
 
-.iconContainer{
-  display: flex;
- flex-direction: row;
- margin: 0 2px;
-}
+ #hotel-logo {
+   height: 60px;
+   width: 60px;
+
+ }
+
+ .imag {
+   display: flex;
+   height: 150px;
+   width: 700px;
+ }
+
+ .img-container {
+   display: inline;
+   float: left;
+   margin: 0 1px;
+
+ }
+
+
+ .container {
+   width: 100%;
+   height: auto;
+   margin-right: auto;
+   margin-left: 1px;
+
+ }
+
+ .iconContainer {
+   display: flex;
+   flex-direction: row;
+   margin: 0 2px;
+ }
