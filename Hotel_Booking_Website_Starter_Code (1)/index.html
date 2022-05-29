@@ -1,80 +1,91 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
     <meta charset="utf-8">
-    <title>Index page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Index</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/index.css">
 
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <div class="container">
-        <!-------HEADER DIV------HEADER DIV----------HEADER DIV---------------------->
+    <!---------Main Container--------------------Main Conatiner--------------------Main Container---------------------------------->
+    <div class="main-container">
+        <!---------footer di0v--------------------Header Div--------------------Header div---------------------------------->
         <header>
-            <a href="index.html" style="pointer-events: none">
-                <img id="hotel-logo" alt="logo" src="assests/images/logo.png">
-            </a>
-            <a href="login.html" target="_blank">login</a>
-            <div id="search-bar">
-                <input type="text" placeholder="City">
-            </div>
+            <ul class="nav-bar">
+                <li><a href="index.html" style="pointer-events: none;">
+                        <img id="hotel-logo" alt="logo" src="assests/images/logo.png">
+                    </a></li>
+                <li><a style="text-decoration: none;" href="login.html" target="_blank">Login</a></li>
+            </ul>
         </header>
-        <!----------------------------Image Container--------------------Image Container-------------->
-            <div class="imag">
-                <div  class="img-container">
+        <!---------Footer Div--------------------Footer Div--------------------Footer div---------------------------------->
+        <main id="main-content">
+            <div id="bar">
+                <input id="search" type="text" placeholder="City">
+            </div>
+            <div class="img-container">
+
+                <div>
                     <a href="list.html">
-                        <img style=" border: 1px; border-radius: 25px; overflow: hidden;" alt="City-img-Delhi" height="150" width="150"
+                        <img style=" border: 1px; border-radius: 25px; overflow: hidden;" alt="City-img-Delhi"
+                            height="150" width="150"
                             src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg">
                     </a>
                 </div>
 
-                <div class="img-container" >
-                    <img alt="City-img-goa" height="150" width="150"
-                        src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg">
+                <div>
+                    <img style=" border: 1px; border-radius: 25px; overflow: hidden;" alt="City-img-goa" height="150"
+                        width="150" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg">
                 </div>
 
-                <div class="img-container">
-                    <img  alt="City-img-Charminar" height="150" width="150"
+                <div>
+                    <img style=" border: 1px; border-radius: 25px; overflow: hidden;" alt="City-img-Charminar"
+                        height="150" width="150"
                         src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg">
                 </div>
 
-                <div class="img-container">
-                    <img alt="City-img-calcutta" height="150" width="150"
+                <div>
+                    <img style=" border: 1px; border-radius: 25px; overflow: hidden;" alt="City-img-calcutta"
+                        height="150" width="150"
                         src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg">
+                    </br>
                 </div>
 
             </div>
-            <div>
-                <a href="index.html">View more>></a>
+            <div class="center">
+                <a style="color:black;  text-decoration: none;" href="index.html">View more>></a>
             </div>
-        
-        </br>
-        <!--------------FOOTER DIV-------------------FOOTER DIV-----------------FOOTER DIV--------------------->
+        </main>
+        <!---------Footer Div--------------------Footer Div--------------------Footer div---------------------------------->
         <footer>
-            <a href="contact.html" target="_blank">Contact-us</a>
-            <div class="iconContainer">
+            <ul class="barnav">
+                <li class="contact-item"><a href="contact.html" style="color: black;" target="_blank">Contact-us</a>
+                </li>
+                <li class="copy-right">@2022 ROOM RESEARCH PVT.LTD</li>
 
-                <div class="iconContainer">
-                    <a href="https://login.facebook.com/" target="_blank"><img alt="logo-facebook " height="20px"
-                            width="22px" src="assests/images/facebook.png"></a>
-                </div>
-                <div class="iconContainer">
-                    <a href="https://www.instagram.com/accounts/login/" target="_blank"><img alt="logo-facebook"
-                            height="20px" width="22px" src="assests/images/instagram.png"></a>
-                </div>
-                <div class="iconContainer">
-                    <a href="https://login.twitter.com/" target="_blank"><img alt="logo-facebook " height="20px"
-                            width="22px" src="assests/images/twitter.png"></a>
-                </div>
+                <li class="social-items"><a href="https://login.facebook.com/" target="_blank"><img alt="logo-facebook "
+                            height="20px" width="22px" src="assests/images/facebook.png"></a></li>
 
-            </div>
-            <p>@2022 Aniket_Deshmukh
-            </p>
+                <li class="social-items"><a href="https://www.instagram.com/accounts/login/" target="_blank"><img
+                            alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png"></a></li>
+
+                <li class="social-items"><a href="https://login.twitter.com/" target="_blank"><img alt="logo-facebook "
+                            height="20px" width="22px" src="assests/images/twitter.png"></a></li>
+            </ul>
         </footer>
     </div>
 </body>
 
 </html>
-
+<!----------------
+          
+                
+        -->

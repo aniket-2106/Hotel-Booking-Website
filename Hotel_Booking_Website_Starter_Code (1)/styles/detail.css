@@ -1,12 +1,25 @@
 .mform {
   margin: 0% 4% 1% 4%;
 }
-.content > img  {
+
+.content>img {
   margin: 2% 4% 0 4%;
 }
-.description > div {
+
+.description>div {
   margin: 1% 4% 2% 4%;
 }
+
 .myform {
   display: unset;
+}
+
+#main-content {
+  flex: 1;
+  overflow: auto;
+  padding: 1rem;
+  margin: 2rem;
+  padding-top: 80px;
+
+
 }

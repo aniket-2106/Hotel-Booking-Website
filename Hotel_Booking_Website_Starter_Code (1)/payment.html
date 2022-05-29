@@ -13,16 +13,18 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="main-container">
     <!-------HEADER DIV------HEADER DIV----------HEADER DIV---------------------->
     <header>
-      <a href="index.html">
-        <img id="hotel-logo" alt="logo" src="assests/images/logo.png">
-      </a>
-      <a href="login.html" target="_blank">login</a>
+      <ul class="nav-bar">
+        <li><a href="index.html">
+            <img id="hotel-logo" alt="logo" src="assests/images/logo.png">
+          </a></li>
+        <li><a style="text-decoration: none;" href="login.html" target="_blank">Login</a></li>
+      </ul>
     </header>
     <!------------------------------content div------------------------Content div-----------contentdiv------------->
-    <div >
+    <main id="main-content">
       <div class="content">
         <img alt="Hotel-radison" height="500" width="500"
           src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
@@ -34,39 +36,39 @@
       </div>
       <div class="info">
         <p><b>Name:</b> John Doe</p>
+        </br>
         <p><b>Number of Adults:</b> 2</p>
+        </br>
         <p><b>Check-in-Date:</b> 06.06.2020</p>
+        </br>
         <p><b>Check-out-Date:</b> 08.06.2020</p>
-        <fieldset><legend>Tariff-Details</legend>
-        <p><b>Tariff Breakdown:</b> &#8377 1000 x 2 Adults x 5 Nights</p>
-        <p><b>Total Amount:</b> &#8377 10000</p>
-      </fieldset>
+        </br>
+        <fieldset>
+          <legend>Tariff-Details</legend>
+          <p><b>Tariff Breakdown:</b> &#8377 1000 x 2 Adults x 5 Nights</p>
+          </br>
+          <p><b>Total Amount:</b> &#8377 10000</p>
+        </fieldset>
 
-        <div><a href="#"> Pay Now!</a></div>
       </div>
+      <div><a class="pay-now" href="#"> Pay Now</a></div>
+    </main>
 
-    </div>
     <!------------------------------footer div------------------------Footer div-----------Footer div------------->
     <footer>
-      <a href="contact.html" target="_blank">Contact-us</a>
-      <div class="iconContainer">
+      <ul class="barnav">
+        <li class="contact-item"><a href="contact.html" style="color: black;" target="_blank">Contact-us</a></li>
+        <li class="copy-right">@2022 ROOM RESEARCH PVT.LTD</li>
 
-        <div class="iconContainer">
-          <a href="https://login.facebook.com/" target="_blank"><img alt="logo-facebook " height="20px" width="22px"
-              src="assests/images/facebook.png"></a>
-        </div>
-        <div class="iconContainer">
-          <a href="https://www.instagram.com/accounts/login/" target="_blank"><img alt="logo-facebook" height="20px"
-              width="22px" src="assests/images/instagram.png"></a>
-        </div>
-        <div class="iconContainer">
-          <a href="https://login.twitter.com/" target="_blank"><img alt="logo-facebook " height="20px" width="22px"
-              src="assests/images/twitter.png"></a>
-        </div>
+        <li class="social-items"><a href="https://login.facebook.com/" target="_blank"><img alt="logo-facebook "
+              height="20px" width="22px" src="assests/images/facebook.png"></a></li>
 
-      </div>
-      <p>@2022 Aniket_Deshmukh
-      </p>
+        <li class="social-items"><a href="https://www.instagram.com/accounts/login/" target="_blank"><img
+              alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png"></a></li>
+
+        <li class="social-items"><a href="https://login.twitter.com/" target="_blank"><img alt="logo-facebook "
+              height="20px" width="22px" src="assests/images/twitter.png"></a></li>
+      </ul>
     </footer>
 
   </div>

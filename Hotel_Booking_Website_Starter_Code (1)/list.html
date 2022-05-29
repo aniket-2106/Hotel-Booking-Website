@@ -1,86 +1,122 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>List</title>
-       
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/common.css">
-        <link rel="stylesheet" href="styles/list.css">
-    </head>
-    <body>
-    <div class="container">
-<!-------HEADER DIV-----------------------HEADER DIV----------HEADER DIV----------------------------------------->
-    <header>       
-        
-            <a href="index.html">
-                <img id="hotel-logo" alt="logo" src="assests/images/logo.png"> 
-            </a> 
-            <a href="login.html" target="_blank">login</a>
-    </header>   
-<!-----------------COntent div------------------Content div--------------------COntent DIV-----------------------Content DIV----------------------------->
-    <div class="content">
-            <div>
-                <ul>
-            <!-------When i click on the list view it will rediect me to the fist div---------->
-                    <li><a href="list.html #list-view">List view</a></li>
 
-            <!-------When i click on the map view it will rediect me to div where id is map view--------->
-                    <li><a href="list.html #map-view">Map View</a></li>
-                </ul>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>List</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/list.css">
+</head>
+
+<body>
+    <!---------Main Container--------------------Main Conatiner--------------------Main Container---------------------------------->
+    <div class=" main-container">
+        <!-------HEADER DIV-----------------------HEADER DIV----------HEADER DIV----------------------------------------->
+        <header>
+            <ul class="nav-bar">
+                <li><a href="index.html">
+                        <img id="hotel-logo" alt="logo" src="assests/images/logo.png">
+                    </a>
+                </li>
+                <li><a style="text-decoration: none;" href="login.html" target="_blank">Login</a>
+                </li>
+            </ul>
+        </header>
+        <!-----------------COntent div------------------Content div--------------------COntent DIV-----------------------Content DIV----------------------------->
+        <main id="main-content">
+
+            <!-------When i click on the list view it will rediect me to the fist div---------->
+            <div id="links">
+                <b> <a href="list.html #list-view">List view</a></b>
+
+
+                <!-------When i click on the map view it will rediect me to div where id is map view--------->
+
+                <b><a href="list.html #map-view">Map View</a></b>
             </div>
-            <div  id="list-view">
-                <div class="hotel"> 
-                    <a href="detail.html">        
-                    <img alt="Hotel-radison" height="200" width="250px" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
-                    <b><p><h2>Radison BLU</h2></p></b>
-                    <p> 5 Star</p> 
+
+            <div class="box">
+                <div class="hotel-one">
+                    <a href="detail.html">
+                        <img alt="Hotel-radison" height="200" width="250px"
+                            src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+                    </a>
+                    <b>
+                        <p>
+                        <h2>Radison BLU</h2>
+                        </p>
+                    </b>
+                    </br>
+                    <p> 5 Star</p>
+                    </br>
                     <p>New Delhi</p>
-                </a>
+
                 </div>
-                <div class="hotel" > 
-                    <img alt="Hotel-Lalit" height="200" width="250px" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg">
-                    <b><p><h2> Lalit New Delhi</h2></p></b>
+                <div class="hotel-two">
+                    <img alt="Hotel-Lalit" height="200" width="250px"
+                        src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg">
+                    <b>
+                        <p>
+                        <h2> Lalit New Delhi</h2>
+                        </p>
+                    </b>
+                    </br>
                     <p> 4.0 Star</p>
-                    <p>New Delhi</p> 
+                    </br>
+                    <p>New Delhi</p>
                 </div>
-                <div class="hotel"> 
-                    <img alt="Hotel-taj-paalce" height="200" width="250px" src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg">
-                    <b><p><h2>Taj Palace</h2></p></b>
-                    <p> 4.3 Star</p> 
+                <div class="hotel-three">
+                    <img alt="Hotel-taj-paalce" height="200" width="250px"
+                        src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg">
+                    <b>
+                        <p>
+                        <h2>Taj Palace</h2>
+                        </p>
+                    </b>
+                    </br>
+                    <p> 4.3 Star</p>
+                    </br>
                     <p>New Delhi</p>
                 </div>
                 <!---------When i click on the map view it will rediect me to div where id is map view------------>
+
+                <div id="map-view">
+                    <img alt="Map-view" src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
+                    <b>
+                        <p>
+                        <h2>MAP VIEW</h2>
+                        </p>
+                    </b>
+                </div>
             </div>
-            <div id="map-view"> 
-                <img alt="Map-view" src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
-                <b><p><h2>MAP VIEW</h2></p></b>
-            </div>
-    </div>
+        </main>
+        <!-----------------------Footer----------------Footer-------------------------------Footer------------->
+        <footer>
+            <footer>
+                <ul class="barnav">
+                    <li class="contact-item"><a href="contact.html" style="color: black;" target="_blank">Contact-us</a>
+                    </li>
+                    <li class="copy-right">@2022 ROOM RESEARCH PVT.LTD</li>
 
-<!-----------------------Footer----------------Footer-------------------------------Footer------------->
-<footer>
-    <a href="contact.html" target="_blank" >Contact-us</a>
-  <div class="iconContainer">
+                    <li class="social-items"><a href="https://login.facebook.com/" target="_blank"><img
+                                alt="logo-facebook " height="20px" width="22px" src="assests/images/facebook.png"></a>
+                    </li>
 
-    <div class="iconContainer">
-      <a href="https://login.facebook.com/" target="_blank"><img  alt="logo-facebook " height="20px" width="22px" src="assests/images/facebook.png"></a> 
-    </div>
-    <div class="iconContainer">
-      <a href="https://www.instagram.com/accounts/login/" target="_blank"><img  alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png"></a> 
-    </div>
-    <div class="iconContainer">
-      <a href="https://login.twitter.com/" target="_blank"><img  alt="logo-facebook " height="20px" width="22px" src="assests/images/twitter.png"></a> 
-    </div>
-    
-  </div>
-  <p>@2022 Aniket_Deshmukh
-  </p>
-</footer>
+                    <li class="social-items"><a href="https://www.instagram.com/accounts/login/" target="_blank"><img
+                                alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png"></a>
+                    </li>
 
-    </div>   
-        <script src="" async defer></script>
-    </body>
+                    <li class="social-items"><a href="https://login.twitter.com/" target="_blank"><img
+                                alt="logo-facebook " height="20px" width="22px" src="assests/images/twitter.png"></a>
+                    </li>
+                </ul>
+            </footer>
+        </footer>
+    </div>
+</body>
+
 </html>

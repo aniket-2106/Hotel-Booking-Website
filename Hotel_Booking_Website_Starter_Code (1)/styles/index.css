@@ -1,32 +1,50 @@
-#search-bar {
+#bar {
+  display: flex;
+  z-index: 1;
+  margin: 0;
 
-  background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
   height: 380px;
+  width: 100%;
+  align-items: center;
   background-position: center;
   background-size: cover;
 
 }
 
-.imag {
-  display: flex;
-  flex-direction: row;
-  margin-left: 15%;
-  margin-right: 15%;
-  justify-content: center;
-  flex-wrap: nowrap;
- 
+#search {
+  margin: auto;
+  display: block;
+  background-color: #f1f1f1;
+  padding: 8px;
+  width: 28%;
+  font-size: 16px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+}
+
+#main-content {
+
+  flex: 1;
+  overflow: auto;
+  padding-bottom: 35px;
+}
+
+.center {
+  text-align: center;
+  padding-bottom: 60px;
+
+
 }
 
 .img-container {
- background-size: cover;
- padding-top: 4%;
- padding-bottom: 4%;
- padding-left: 4%;
- padding-right: 4%;
+  background-size: cover;
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
 
 }
-.img-container > img {
-  border: 1px; 
-  border-radius: 25px; 
-  overflow: hidden;
+
+.img-container>div {
+  padding: 4%;
 }

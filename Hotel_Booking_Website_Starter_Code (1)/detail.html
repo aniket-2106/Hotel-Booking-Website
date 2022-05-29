@@ -12,19 +12,23 @@
 </head>
 
 <body>
-  <div class="container">
+  <!---------Main Container--------------------Main Conatiner--------------------Main Container---------------------------------->
+  <div class="main-container">
     <!-------HEADER DIV------HEADER DIV----------HEADER DIV---------------------->
     <header>
-      <a href="index.html">
-        <img id="hotel-logo" alt="logo" src="assests/images/logo.png">
-      </a>
-      <a href="login.html" target="_blank">login</a>
+      <ul class="nav-bar">
+        <li><a href="index.html">
+            <img id="hotel-logo" alt="logo" src="assests/images/logo.png">
+          </a></li>
+        <li><a style="text-decoration: none;" href="login.html" target="_blank">Login</a></li>
+      </ul>
     </header>
     <!------------------------------content div------------------------Content div-----------contentdiv------------->
-    <div class="content">
+    <main id="main-content">
       <img alt="Hotel-radison" height="500" width="500"
         src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
       <div class="mform">
+
         <form class="myform" method="post" action="payment.html">
           <label for="adults">Adults:</label>
           <input type="number" min="1" max="50" required>
@@ -32,10 +36,10 @@
           <label for="Name">Name:</label>
           <input type="text" required>
           </br>
-          <label for="fdate">From-Date</label>
+          <label for="fdate">From-Date:</label>
           <input type="date" required>
           </br>
-          <label for="tdate">To-Date</label>
+          <label for="tdate">To-Date:</label>
           <input type="date" required>
           </br>
           <label for="total">Total:</label>
@@ -43,6 +47,7 @@
           </br>
           <input type="submit" value="Book Now">
         </form>
+
       </div>
       <div class="description">
         <div> <b>
@@ -63,7 +68,7 @@
             <li>Pool</li>
           </ul>
         </div>
-        <div> DESCRIPTION
+        <div class="last-div"> DESCRIPTION
           <p>Your Radisson Blu experience should be all about personalization, every step of the way. By paying close
             attention to the small details that make a big difference, we inspire unforgettable experiences with every
             stay. Step into stylish spaces designed for business and leisure in some of the world’s favorite
@@ -71,28 +76,25 @@
             Our culinary experts strive to deliver cutting edge, stylish, sophisticated gastronomy to every Radisson Blu
             dining experience.</p>
         </div>
-      </div>
-      <!------------------------------footer div------------------------Footer div-----------Footer div------------->
-      <footer>
-        <a href="contact.html" target="_blank">Contact-us</a>
-        <div class="iconContainer">
-          <div class="iconContainer">
-            <a href="https://login.facebook.com/" target="_blank"><img alt="logo-facebook " height="20px" width="22px"
-                src="assests/images/facebook.png"></a>
-          </div>
-          <div class="iconContainer">
-            <a href="https://www.instagram.com/accounts/login/" target="_blank"><img alt="logo-facebook" height="20px"
-                width="22px" src="assests/images/instagram.png"></a>
-          </div>
-          <div class="iconContainer">
-            <a href="https://login.twitter.com/" target="_blank"><img alt="logo-facebook " height="20px" width="22px"
-                src="assests/images/twitter.png"></a>
-          </div>
-        </div>
-        <p>@2022 Aniket_Deshmukh</p>
-      </footer>
-      <!--------end------------------>
-    </div>
+    </main>
+    <!------------------------------footer div------------------------Footer div-----------Footer div------------->
+    <footer>
+      <ul class="barnav">
+        <li class="contact-item"><a href="contact.html" style="color: black;" target="_blank">Contact-us</a></li>
+        <li class="copy-right">@2022 ROOM RESEARCH PVT.LTD</li>
+
+        <li class="social-items"><a href="https://login.facebook.com/" target="_blank"><img alt="logo-facebook "
+              height="20px" width="22px" src="assests/images/facebook.png"></a></li>
+
+        <li class="social-items"><a href="https://www.instagram.com/accounts/login/" target="_blank"><img
+              alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png"></a></li>
+
+        <li class="social-items"><a href="https://login.twitter.com/" target="_blank"><img alt="logo-facebook "
+              height="20px" width="22px" src="assests/images/twitter.png"></a></li>
+      </ul>
+    </footer>
+    <!--------end------------------>
+  </div>
 </body>
 
 </html>
