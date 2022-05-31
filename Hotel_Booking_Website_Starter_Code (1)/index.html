@@ -17,45 +17,50 @@
 <body>
     <!---------Main Container--------------------Main Conatiner--------------------Main Container---------------------------------->
     <div class="main-container">
-        <!---------footer di0v--------------------Header Div--------------------Header div---------------------------------->
+
         <header>
-            <ul class="nav-bar">
-                <li><a href="index.html" style="pointer-events: none;">
-                        <img id="hotel-logo" alt="logo" src="assests/images/logo.png">
-                    </a></li>
-                <li><a style="text-decoration: none;" href="login.html" target="_blank">Login</a></li>
-            </ul>
+            <a href="index.html" style="pointer-events: none;">
+                <img id="hotel-logo" alt="logo" src="assests/images/logo.png"></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a style="text-decoration: none; color: black;" href="login.html" target="_blank">Login</a></li>
+                </ul>
+            </nav>
         </header>
-        <!---------Footer Div--------------------Footer Div--------------------Footer div---------------------------------->
+
+        <!---------main Div--------------------main Div--------------------main div---------------------------------->
         <main id="main-content">
             <div id="bar">
                 <input id="search" type="text" placeholder="City">
             </div>
-            <div class="img-container">
+            <div class="img-box">
 
-                <div>
+                <div id="img-one">
                     <a href="list.html">
-                        <img style=" border: 1px; border-radius: 25px; overflow: hidden;" alt="City-img-Delhi"
-                            height="150" width="150"
-                            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg">
+                        <div class="image-overlay">
+                            <div class="image-titel">Delhi</div>
+                        </div>
                     </a>
                 </div>
 
-                <div>
-                    <img style=" border: 1px; border-radius: 25px; overflow: hidden;" alt="City-img-goa" height="150"
-                        width="150" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg">
+                <div id="img-two">
+                    <div class="image-overlay">
+                        <div class="image-titel">GOA</div>
+                    </div>
                 </div>
 
-                <div>
-                    <img style=" border: 1px; border-radius: 25px; overflow: hidden;" alt="City-img-Charminar"
-                        height="150" width="150"
-                        src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg">
+                <div id="img-three">
+
+                    <div class="image-overlay">
+                        <div class="image-titel">Hyderabad</div>
+                    </div>
                 </div>
 
-                <div>
-                    <img style=" border: 1px; border-radius: 25px; overflow: hidden;" alt="City-img-calcutta"
-                        height="150" width="150"
-                        src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg">
+                <div id="img-four">
+
+                    <div class="image-overlay">
+                        <div class="image-titel">Kolkata</div>
+                    </div>
                     </br>
                 </div>
 
@@ -66,26 +71,36 @@
         </main>
         <!---------Footer Div--------------------Footer Div--------------------Footer div---------------------------------->
         <footer>
-            <ul class="barnav">
-                <li class="contact-item"><a href="contact.html" style="color: black;" target="_blank">Contact-us</a>
-                </li>
-                <li class="copy-right">@2022 ROOM RESEARCH PVT.LTD</li>
+            <li class="contact-item"><a href="contact.html" style="color: black; text-decoration: none; "
+                    target="_blank">Contact-us</a>
+            </li>
+            <p>&#169; ROOM RESEARCH PVT.LTD</p>
+            <nav>
+                <ul class="links-nav">
+                    <li>
+                        <a href="https://login.facebook.com/" target="_blank">
+                            <img alt="logo-facebook " height="20px" width="22px" src="assests/images/facebook.png">
+                        </a>
+                    </li>
 
-                <li class="social-items"><a href="https://login.facebook.com/" target="_blank"><img alt="logo-facebook "
-                            height="20px" width="22px" src="assests/images/facebook.png"></a></li>
+                    <li>
+                        <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                            <img alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png">
+                        </a>
+                    </li>
 
-                <li class="social-items"><a href="https://www.instagram.com/accounts/login/" target="_blank"><img
-                            alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png"></a></li>
+                    <li>
+                        <a href="https://login.twitter.com/" target="_blank">
+                            <img alt="logo-facebook " height="20px" width="22px" src="assests/images/twitter.png">
+                        </a>
+                    </li>
 
-                <li class="social-items"><a href="https://login.twitter.com/" target="_blank"><img alt="logo-facebook "
-                            height="20px" width="22px" src="assests/images/twitter.png"></a></li>
-            </ul>
+                </ul>
+            </nav>
+
         </footer>
+
     </div>
 </body>
 
 </html>
-<!----------------
-          
-                
-        -->

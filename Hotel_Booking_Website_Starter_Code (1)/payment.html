@@ -16,63 +16,175 @@
   <div class="main-container">
     <!-------HEADER DIV------HEADER DIV----------HEADER DIV---------------------->
     <header>
-      <ul class="nav-bar">
-        <li><a href="index.html">
-            <img id="hotel-logo" alt="logo" src="assests/images/logo.png">
-          </a></li>
-        <li><a style="text-decoration: none;" href="login.html" target="_blank">Login</a></li>
-      </ul>
-    </header>
+      <a href="index.html" >
+          <img id="hotel-logo" alt="logo" src="assests/images/logo.png"></a>
+      <nav>
+          <ul class="nav-links">
+              <li><a style="text-decoration: none; color: black;" href="login.html" target="_blank">Login</a></li>
+          </ul>
+      </nav>
+  </header>
     <!------------------------------content div------------------------Content div-----------contentdiv------------->
     <main id="main-content">
-      <div class="content">
-        <img alt="Hotel-radison" height="500" width="500"
+
+      <div class="hotel-content">
+        <div class="hotel-img">
+        <img alt="Hotel-radison" style="display: block;" height="200" width="270"
           src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+        </div>
+          <div class="hotel-info">
         <h2>
           <p>Radison Blu Hotel</p>
         </h2>
+      </br>
         <p>#38 of 1,289 hotels in New Delhi</p>
+    </br>
         <p>National Highway 8, New Delhi 110017 India</p>
+  </br>
       </div>
-      <div class="info">
-        <p><b>Name:</b> John Doe</p>
-        </br>
-        <p><b>Number of Adults:</b> 2</p>
-        </br>
-        <p><b>Check-in-Date:</b> 06.06.2020</p>
-        </br>
-        <p><b>Check-out-Date:</b> 08.06.2020</p>
-        </br>
+      </div>
+     
+          
         <fieldset>
-          <legend>Tariff-Details</legend>
-          <p><b>Tariff Breakdown:</b> &#8377 1000 x 2 Adults x 5 Nights</p>
+          <div class="cust-info">
+            <div class="view" >
+              <p> <h4 style="font-family: cursive;">Name:-          </h4></p>
+            
+              <p>John Doe</p>
+            
+            </div>
           </br>
-          <p><b>Total Amount:</b> &#8377 10000</p>
-        </fieldset>
+          <div class="view">
+            <p><h4 style="font-family: cursive;">Number Of Adults:-  </h4></p>
+          
+            <p>2</p>
+          </div>
+        </br>
+            <div class="view" >
+              <p><h4 style="font-family: cursive;">Check-in-Date:</h4>  </p>
+              
+              <p>06.06.2020</p>
+
+            </div>
+          </br>
+            <div class="view">
+              <p><h4 style="font-family: cursive;">Check-out-Date:</h4> </p>
+              
+              <p>08.06.2020</p>
+            </div>
+   
+        </br>
+          </div>
+        
+       <div class="tariff-info">
+          
+            <div class="view">
+                <p><h4 style="font-family: cursive;">Tariff Breakdown:</h4></p>
+            
+                <p> &#8377 1000 x 2 Adults x 5 Nights</p>
+            </div>
+            </br>
+          <div class="view">
+              <p><h4 style="font-family: cursive;">Total Amount:</h4> </p>
+              <p> &#8377  10000</p>
+          </div>
+      </div>
+      
+      <div class="book-info">
+        <a class="pay-now" href="#"> Pay Now</a>
+      </div>
+    </fieldset>
+     
+      
 
       </div>
-      <div><a class="pay-now" href="#"> Pay Now</a></div>
+    
+
     </main>
 
     <!------------------------------footer div------------------------Footer div-----------Footer div------------->
     <footer>
-      <ul class="barnav">
-        <li class="contact-item"><a href="contact.html" style="color: black;" target="_blank">Contact-us</a></li>
-        <li class="copy-right">@2022 ROOM RESEARCH PVT.LTD</li>
+      <li class="contact-item"><a href="contact.html" style="color: black; text-decoration: none; " target="_blank">Contact-us</a>
+      </li>
+      <p>&#169; ROOM RESEARCH PVT.LTD</p>
+      <nav >
+      <ul class="links-nav" >
+          <li>
+              <a href="https://login.facebook.com/" target="_blank">
+                  <img alt="logo-facebook " height="20px" width="22px" src="assests/images/facebook.png">
+              </a>
+          </li>
 
-        <li class="social-items"><a href="https://login.facebook.com/" target="_blank"><img alt="logo-facebook "
-              height="20px" width="22px" src="assests/images/facebook.png"></a></li>
+          <li>
+              <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                  <img alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png">
+              </a>
+          </li>
 
-        <li class="social-items"><a href="https://www.instagram.com/accounts/login/" target="_blank"><img
-              alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png"></a></li>
+          <li>
+              <a  href="https://login.twitter.com/" target="_blank">
+                  <img alt="logo-facebook " height="20px" width="22px" src="assests/images/twitter.png">
+              </a>
+          </li>
 
-        <li class="social-items"><a href="https://login.twitter.com/" target="_blank"><img alt="logo-facebook "
-              height="20px" width="22px" src="assests/images/twitter.png"></a></li>
       </ul>
-    </footer>
+  </nav>
+
+  </footer>
 
   </div>
   <script src="" async defer></script>
 </body>
 
 </html>
+<!----------------------#main-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: auto;
+    padding: 1rem;
+    margin: 2rem;
+    justify-content: center;
+    
+    
+}
+
+.hotel-content {
+    display: flex;
+    flex-direction: row;
+    
+    
+    background-color: rgb(132, 136, 139);
+   
+
+}
+.hotel-info{
+    display: flex;
+    padding: 1rem;
+    
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.info {
+    flex-direction: column;
+    margin: 2%;
+    
+}
+fieldset{
+    background-color: rosybrown;
+    border-radius: 5px;
+    padding: 1% 2% 1% 2%;
+}
+.pay-now{
+    text-decoration: none;
+    color: black;
+    float: left; padding-bottom: 35px;
+}-->
