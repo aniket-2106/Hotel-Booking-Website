@@ -24,31 +24,31 @@ main {
   flex: 1;
   overflow: auto;
   padding: 12px 0px 12px 0px;
- 
+
 }
 
-header{
+header {
   width: inherit;
   max-width: inherit;
   position: fixed;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 1px 1%;
+
   background-color: rosybrown;
 }
-.nav-links{
-  list-style: none;
+
+.logo {
+  padding-left: 14px;
 }
-.nav-links li {
-  display: inline-block;
-  padding: 0px 50px;
-  margin-right: 1%;
-  margin-left: 1%;
-}
+
 #hotel-logo {
   height: 60px;
   width: 60px;
+}
+
+.login-btn {
+  padding-right: 20px;
+  padding-top: 10px;
 }
 
 
@@ -77,21 +77,39 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0%;
+  padding: 8px 0%;
 }
-footer p{
+
+.con-us {
+  padding-left: 14px;
+}
+
+footer p {
   font-size: 10px;
   color: black;
 }
-.contact-item{
+
+.contact-item {
   list-style: none;
   padding-left: 30px;
-  
+
 }
-.links-nav{
+
+.links-nav {
   padding: 0px 22px;
 }
-.links-nav  li  {
+
+.links-nav li {
   display: inline-block;
- 
+
+}
+
+.form-group {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  flex-basis: 200px;
 }

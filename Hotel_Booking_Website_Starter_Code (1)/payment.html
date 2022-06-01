@@ -5,8 +5,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Payment</title>
+   <!--------LINkS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+   <!--------LINkS-->
 
-  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles/common.css">
   <link rel="stylesheet" href="styles/payment.css">
@@ -16,17 +20,18 @@
   <div class="main-container">
     <!-------HEADER DIV------HEADER DIV----------HEADER DIV---------------------->
     <header>
-      <a href="index.html" >
-          <img id="hotel-logo" alt="logo" src="assests/images/logo.png"></a>
-      <nav>
-          <ul class="nav-links">
-              <li><a style="text-decoration: none; color: black;" href="login.html" target="_blank">Login</a></li>
-          </ul>
-      </nav>
+      <div class="logo">
+          <a href="index.html" >
+              <img id="hotel-logo" alt="logo" src="assests/images/logo.png"></a>
+      </div>
+      <div class="login-btn">
+          <button type="button" class="login-button btn btn-light" data-toggle="modal"
+              data-target="#login-modal">LOGIN</button>
+      </div>
   </header>
     <!------------------------------content div------------------------Content div-----------contentdiv------------->
-    <main id="main-content">
-
+    <main >
+<div id="main-content">>
       <div class="hotel-content">
         <div class="hotel-img">
         <img alt="Hotel-radison" style="display: block;" height="200" width="270"
@@ -36,104 +41,148 @@
         <h2>
           <p>Radison Blu Hotel</p>
         </h2>
-      </br>
+      
         <p>#38 of 1,289 hotels in New Delhi</p>
-    </br>
-        <p>National Highway 8, New Delhi 110017 India</p>
-  </br>
-      </div>
-      </div>
-     
-          
-        <fieldset>
-          <div class="cust-info">
-            <div class="view" >
-              <p> <h4 style="font-family: cursive;">Name:-          </h4></p>
-            
-              <p>John Doe</p>
-            
-            </div>
-          </br>
-          <div class="view">
-            <p><h4 style="font-family: cursive;">Number Of Adults:-  </h4></p>
-          
-            <p>2</p>
-          </div>
-        </br>
-            <div class="view" >
-              <p><h4 style="font-family: cursive;">Check-in-Date:</h4>  </p>
-              
-              <p>06.06.2020</p>
-
-            </div>
-          </br>
-            <div class="view">
-              <p><h4 style="font-family: cursive;">Check-out-Date:</h4> </p>
-              
-              <p>08.06.2020</p>
-            </div>
-   
-        </br>
-          </div>
-        
-       <div class="tariff-info">
-          
-            <div class="view">
-                <p><h4 style="font-family: cursive;">Tariff Breakdown:</h4></p>
-            
-                <p> &#8377 1000 x 2 Adults x 5 Nights</p>
-            </div>
-            </br>
-          <div class="view">
-              <p><h4 style="font-family: cursive;">Total Amount:</h4> </p>
-              <p> &#8377  10000</p>
-          </div>
-      </div>
-      
-      <div class="book-info">
-        <a class="pay-now" href="#"> Pay Now</a>
-      </div>
-    </fieldset>
-     
-      
-
-      </div>
     
+        <p>National Highway 8, New Delhi 110017 India</p>
+  
+      </div>
+      </div>
+     
+          <div class="container-fluid">
+            <div class="info">
+              <span style="font-family: cursive;"> <b>Name:-</b></span><span>John Doe</span>
+            </br>
+          </br>
+        
+              <span style="font-family: cursive;"><b>Number of adults:-</b></span><span>2</span>
+            </br>
+          </br>
+              <span style="font-family: cursive;"><b>Check-In-Date:-</b></span><span>04/06/2020</span>
+            </br>
+          </br>
+              <span style="font-family: cursive;"><b>Check-out-Date:-</b></span><span>06/06/2020</span>
+            </br>
+          </br>
+            </div>
+            <div class="info">
+            </br>
+              <span style="font-family: cursive;"><b>Tariff-Breakdown:-</b></span><span>&#x20B9;.1000 x 2 Adult's x 5 Nights'</span>
+            </br>
+          </br>
+              <span style="font-family: cursive;"><b>Total-Amount:- </b></span><span>&#x20B9;10000</span>
+            </br>
+          </br>
+            </div>
+            <div class="info">
+              <button type="submit" class="btn btn-outline-success disabled">Book-Now</button>
+            </div>
+            </div>
+       </div>
+    </div>
+</main>
 
-    </main>
+<!-------------LOGIN MODAL-------------LOGIN MODAL---------------------------------------------------------------------------------->
 
-    <!------------------------------footer div------------------------Footer div-----------Footer div------------->
+    <div class="modal-fade  bg-light" tabindex="-1" role="dialog">
+      <div class="modal " id="login-modal">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title">Please Login</h4>
+                      <button type="button" class="close btn-sm" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                  </div>
+                  <div class="modal-body"></div>
+                  <form  action="login.html" method="post">
+                      <div class="form-group">
+                          <div class="form-inline">
+                              <label for="username">Username:</label>
+                              <input class="form-control" type="text" placeholder="Enter Username" required>
+                          </div>
+                          </br>
+                          <div class="form-inline ">
+                              <label for="password">Password:</label>
+                              <input class="form-control" type="password" placeholder="Enter Password"
+                                  autocomplete="off" required>
+                          </div>
+                      </div>
+                  
+                  <hr>
+
+                  <div class="model-footer text-center  ">
+                      <button type="submit" id="login-id-modal" onclick="login.html"
+                          class="btn btn-primary btn-md mb-3">Login</button>
+                  </div>
+                </form>
+              </div>
+          </div>
+      </div>
+  </div>
+<!------CONTACT US MODAL ------------------CONTACT US MODAL--------------CONTACT US MODAL--------------------------------->
+<div class="mpdal-fade" tabindex="-1" role="dialog">
+  <div class="modal" id="contact-modal">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title">Get In touch</h4>
+                  <button type="button" class="close btn-sm" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+              </div>
+              <div class="modal-body">
+                  <p>Thank you for reaching out!!!</p>
+                  <p>Please enter your email and we will get back to you.</p>
+                  <form action="contact.html" method="post"  >
+                  <label for="email">Email:  </label>
+                  <input type="email" placeholder="Enter your email id..." required>
+              </div>
+              <div class="modal-footer">
+                  <button type="submit" class="btn btn-primary" value="submit">Submit</button>
+              </div>
+          </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!------------------------------footer div------------------------Footer div-----------Footer div-------------------------->
     <footer>
-      <li class="contact-item"><a href="contact.html" style="color: black; text-decoration: none; " target="_blank">Contact-us</a>
-      </li>
+      <div class="con-us">
+          <button type="button" data-toggle="modal" data-target="#contact-modal" class="btn btn-info">Contact
+              Us</button>
+      </div>
       <p>&#169; ROOM RESEARCH PVT.LTD</p>
-      <nav >
-      <ul class="links-nav" >
-          <li>
-              <a href="https://login.facebook.com/" target="_blank">
-                  <img alt="logo-facebook " height="20px" width="22px" src="assests/images/facebook.png">
-              </a>
-          </li>
+      <nav>
+          <ul class="links-nav">
+              <li>
+                  <a href="https://login.facebook.com/" target="_blank">
+                      <img alt="logo-facebook " height="20px" width="22px" src="assests/images/facebook.png">
+                  </a>
+              </li>
 
-          <li>
-              <a href="https://www.instagram.com/accounts/login/" target="_blank">
-                  <img alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png">
-              </a>
-          </li>
+              <li>
+                  <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                      <img alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png">
+                  </a>
+              </li>
 
-          <li>
-              <a  href="https://login.twitter.com/" target="_blank">
-                  <img alt="logo-facebook " height="20px" width="22px" src="assests/images/twitter.png">
-              </a>
-          </li>
+              <li>
+                  <a href="https://login.twitter.com/" target="_blank">
+                      <img alt="logo-facebook " height="20px" width="22px" src="assests/images/twitter.png">
+                  </a>
+              </li>
 
-      </ul>
-  </nav>
+          </ul>
+      </nav>
 
   </footer>
-
   </div>
-  <script src="" async defer></script>
+
+
+ <!--------LINkS-->
+  <script src="scripts/common.js"></script>
+  <Script src="scripts/payment.js"></Script>
 </body>
 
 </html>

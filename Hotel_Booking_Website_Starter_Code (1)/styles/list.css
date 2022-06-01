@@ -1,20 +1,22 @@
 main {
-    
+
     overflow: auto;
     padding: 1rem;
-    margin: 10px;
-    
-  }
+    margin-bottom: 4%;
+
+}
 
 
-.box{
+.box {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1rem;
-   
+
+
+
 }
+
 #hotel-one {
     display: flex;
     height: 201px;
@@ -22,13 +24,22 @@ main {
     margin: 2%;
     text-decoration: none;
     background-color: lightgrey;
-   
+
 }
-#hotel-one .info{ 
+
+#hotel-one .info {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 54%;
+
     padding: 1rem;
+    background-color: lightgrey;
+
+}
+
+#hotel-one .info:hover {
+    background-color: rosybrown;
 }
 
 #hotel-two {
@@ -38,11 +49,24 @@ main {
     margin: 2%;
     text-decoration: none;
     background-color: lightgrey;
-   
+
 }
-#hotel-two .info{ 
+
+#hotel-two .info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 54%;
+
     padding: 1rem;
+    background-color: lightgrey;
+
 }
+
+#hotel-two .info:hover {
+    background-color: rosybrown;
+}
+
 #hotel-three {
     display: flex;
     height: 201px;
@@ -50,38 +74,75 @@ main {
     margin: 2%;
     text-decoration: none;
     background-color: lightgrey;
-   
-}
-#hotel-three .info{ 
-    padding: 1rem;
+
 }
 
+#hotel-three .info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 54%;
+
+    padding: 1rem;
+    background-color: lightgrey;
+
+}
+
+#hotel-three .info:hover {
+    background-color: rosybrown;
+}
 
 #map-view {
-    margin: 2%;
-display: none;
-  
-    height: 330px;
-    width: 40%;
-    margin: 2%;
+    display: flex;
+    flex-basis: content;
+    flex-direction: column;
     text-decoration: none;
-    background-color: rgb(132, 136, 139);
-    
-   
+
+
 }
 
-#links {
-    display: inline-block;
-    width:1024px;
-    margin-left: 90px;
-    padding-top: 70px;
-    padding-left: 365px;
+#map-view .map-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 
-#links a {
-    margin-left: 80px;
+#map-view a {
+    width: max-content;
+}
+
+.container-f {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.toggle ul {
+    display: flex;
+
+}
+
+.toggle ul li {
+    list-style: none;
+}
+
+.toggle ul li:nth-child(1) {
+    padding-right: 10px;
+}
+
+.toggle ul li a {
+
+    display: block;
     color: black;
+    padding: 10px;
     text-decoration: none;
 
+}
 
+ul li.active a {
+
+    background-color: #33b5e5;
+    color: black;
 }
