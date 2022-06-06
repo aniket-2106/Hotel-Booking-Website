@@ -7,11 +7,12 @@
 
 #bar {
   display: flex;
+  box-sizing: border-box;
   z-index: 1;
   margin: 0;
   background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
-  height: 380px;
-  width: 100%;
+  height: 28rem;
+  max-width: 100%;
   align-items: center;
   background-position: center;
   background-size: cover;
@@ -33,18 +34,19 @@
 .img-box {
   display: flex;
   flex-wrap: nowrap;
+  box-sizing: border-box;
   flex-direction: row;
   justify-content: space-evenly;
   padding-top: 1em;
   margin-top: 1em;
-  padding-bottom: 40px;
+  padding-bottom: 2rem;
 
 }
 
 #img-one {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 22vh;
+  height: 22vh;
   background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg");
   position: relative;
   background-position: center;
@@ -58,8 +60,8 @@
 
 #img-two {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 22vh;
+  height: 22vh;
   background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg");
   position: relative;
   background-position: center;
@@ -73,8 +75,8 @@
 
 #img-three {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 22vh;
+  height: 22vh;
   background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg");
   position: relative;
   background-position: center;
@@ -88,8 +90,8 @@
 
 #img-four {
   display: block;
-  width: 150px;
-  height: 150px;
+  width:22vh;
+  height: 22vh;
   background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg");
   position: relative;
   background-position: center;
@@ -106,8 +108,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 150px;
-  height: 150px;
+  width: 22vh;
+  height: 22vh;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   display: flex;
@@ -123,5 +125,5 @@
 
 .center {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 8vh;
 }

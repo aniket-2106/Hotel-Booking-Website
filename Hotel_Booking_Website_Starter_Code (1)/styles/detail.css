@@ -1,21 +1,54 @@
+#main-content {
+ flex: 1;
+  padding: 1rem;
+  margin: 1rem;
+  padding-top: 80px;
+box-sizing: border-box;
+
+
+}
+
 .side-nav {
   display: flex;
   border: 1px solid black;
-  height: 400px;
+  height:60.88vh;
   width: 100%;
 
 }
 
-.img-container {
-  flex-grow: 3;
-  background-image: url("https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg");
-  background-size: 470px 350px;
-  background-repeat: no-repeat;
-  background-position: center;
+.side-nav #img-container {
+  display: block;
+  width: 62%;
+  max-height: 6060.88vh
 
 }
 
-.form-div {
+.carousel-inner img {
+  display: block;
+  overflow: hidden;
+  max-width: 60%;
+  margin: 1rem;
+  margin-left: 20%;
+
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rosybrown'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rosybrown'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 50px;
+  height: 60px;
+}
+
+
+.side-nav .form-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,10 +59,11 @@
 }
 
 .form-div .login-form input {
-  width: 60%;
+  width: 90%;
 }
 
 .login-form {
+  margin: 1rem;
   padding: 1rem;
   margin-top: 70px;
 
@@ -46,6 +80,9 @@
 
 
 }
+
+
+
 
 .form-div .login-form .flex-input button {
   padding-left: 15px;
@@ -65,17 +102,12 @@
   display: unset;
 }
 
-#main-content {
-  flex: 1;
-  overflow: hidden;
-  padding: 1rem;
-  margin: 2rem;
-  padding-top: 80px;
 
-
-
-}
 
 .description>h3 {
   font-family: 'ubuntu', cursive;
+}
+
+.checked {
+  color: goldenrod;
 }
