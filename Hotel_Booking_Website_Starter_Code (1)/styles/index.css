@@ -31,6 +31,16 @@
   outline: none;
 }
 
+#img-box2{
+  display: flex;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 1em;
+  margin-top: 1em;
+  padding-bottom: 2rem;
+}
 .img-box {
   display: flex;
   flex-wrap: nowrap;
@@ -93,6 +103,70 @@
   width:22vh;
   height: 22vh;
   background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px;
+  background-size: 150px 150px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px grey;
+
+}
+
+#img-five {
+  display: block;
+  width:22vh;
+  height: 22vh;
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px;
+  background-size: 150px 150px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px grey;
+
+}
+
+#img-six {
+  display: block;
+  width:22vh;
+  height: 22vh;
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px;
+  background-size: 150px 150px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px grey;
+
+}
+
+#img-seven {
+  display: block;
+  width:22vh;
+  height: 22vh;
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px;
+  background-size: 150px 150px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px grey;
+
+}
+
+#img-eight {
+  display: block;
+  width:22vh;
+  height: 22vh;
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg");
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
